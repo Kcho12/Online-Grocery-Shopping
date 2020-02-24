@@ -1,0 +1,37 @@
+Instructions on how to set everything up for our project:
+
+Assumptions:
+1. Eclipse IDE installed
+2. Postgresql JDBC Driver downloaded
+3. Postgresql (latest version) installed
+
+Instructions:
+1. Using pgadmin4 (postgresql's fancy GUI) under your admin account,
+   create a database with any name (eg. Supermarket)
+2. Open an SQL terminal for that database and copy paste the SQL commands from
+   the RelationalSchema.sql file (notepad can open this type of file)
+3. Run the commands to create the relational tables.
+4. Copy paste the SQL commands from the SampleData.sql file onto the terminal
+   and run the commands to populate the tables.
+5. Execute the GroceryStore.jar file
+6. In the text boxes, insert your postgres username and password. The url will be
+   similar to the example, except the final directory is the name of the database you wrote in part 1
+
+If you can not access the database from the jar file:
+1. Open Eclipse IDE and create a project with any name
+2. Copy paste login.java, customer.java, and worker.java into the src folder under the project directory
+3. Create a new folder under the project directory labeled "lib"
+4. Place the Postgresql JDBC Driver inside the lib folder.
+5. Right click the driver and select Build Path > Add to Build Path
+6. Add the png files from the Images folder from the repository and place them in the src directory of the java project.
+7. Run login.java from the Eclipse IDE.
+
+Notes from the project team:
+Apologies if this project was not very straight forward in terms of setting up.
+We came across many issues figuring out how to make it work across an entirely different machine and
+could not figure out a simpler solution to set everything up in one step.
+We also came across multiple issues deciding how to make the GUI as user-friendly as possible.
+Hopefully the video in the video.txt file shows the functionality of our source code.
+All our files are provided in the repository, including the java source codes and sql commands.
+
+Thank you for reading this, -Jason
