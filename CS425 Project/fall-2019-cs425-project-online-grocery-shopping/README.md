@@ -10,4 +10,4 @@ Sample Data- Created and being modified
 
 Application- Created and being modified
 
-Video- Not Started
+Video- Link is in the repository
